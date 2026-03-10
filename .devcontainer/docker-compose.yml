@@ -1,0 +1,7 @@
+name: devcontainer_task_tracker
+services:
+  ubuntu:
+    image: public.ecr.aws/ubuntu/ubuntu:24.04_stable
+    command: sleep infinity
+    volumes:
+    - ..:/code
